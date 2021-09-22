@@ -25,7 +25,7 @@
     height: 100px;
     background-color: tomato;
     color: #000;
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 20px;
 }
 
@@ -60,14 +60,13 @@ align-items: center;
 .exer05 {
 
     align-items: center;
-    justify-content: center;
-    gap: 170px;
+    justify-content: space-around;
+
 }
 .exer06 {
 
     align-items: center;
-    justify-content: center;
-    gap: 140px;
+    justify-content: space-evenly;
 }
 .exer07  {
 
@@ -101,7 +100,7 @@ flex-direction: column;
 .exer09 :nth-child(3) {
 
     background: tomato;
-    width: 1040px;
+    width: 100%;
 
 }
 .exer10 {
@@ -115,4 +114,35 @@ flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
+}
+.exer12 {
+
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+.exer12 :nth-child(odd){
+
+    background-color: tomato;
+
+}
+.exer12 :nth-child(11){
+
+    flex-grow:1;
+
+}
+.exer13 {  
+
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+.exer13 :nth-child(odd) {
+
+    background-color: tomato;
+    flex-grow: 1;
+    width: 50%;
+
 }
